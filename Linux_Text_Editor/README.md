@@ -12,7 +12,7 @@ _Working with VIM textr editor, open a mew file name exercise.txt with a `vim` c
 -----
 ># **Type and write**
 
-_After open the file with vim comands, type and write inside it. then use `insert` and other commands to regulate the text then use :wq to exit_
+_After open the file with vim comands, type and write inside it. then use `insert` and other commands to regulate the text then use `:wq` to exit_
 ![write  and save](./img/1.%20vim.jpg)
 
 
