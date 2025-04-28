@@ -8,6 +8,7 @@
 
 _Working with VIM textr editor, open a mew file name exercise.txt with a `vim` commands_
 ![](./image/1.0%20vim.jpg)
+![vim image](https://raw.githubusercontent.com/Sola-Royal/Devops_projects/refs/heads/main/Linux_Text_Editor/Image/1.%20vim.jpg)
 
 -----
 ># **Type and write**
