@@ -86,5 +86,4 @@ ____
 
 ![sofia](./img/13.%20sofia%20.png)
 
-
->**The advanced linux command done with all necessary fil permission**
+>**The advanced linux command done with all necessary fil permission, making it a workdone**
