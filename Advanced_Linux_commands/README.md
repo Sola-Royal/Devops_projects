@@ -46,21 +46,45 @@ _I use `Chown` to change ownership of a file from solaroyal1 to peter add it to 
 
 >#  **Superuser priviledges `sudo`, and `exit`commands**
 
-_to change from user to r`oot user` and `exit` to leave the root user_
+_to change from user to `root user` and `exit` to leave the root user_
 ![sudo](./img/7.%20sudo%20.png)
 
 
 ># user management on linux
-_creating a user with `adduser` command and `/home/johndoe` directory was created_ 
+_creating a user with `adduser` command and `/home/johndoe` directory was created. `cd` is used to navigate johdoe root_ 
 ![super user](./img/8.%20new%20user.png)
 ![home dir](./img/9.%20sudo%20su.png)
 
 
 >#  **Granting administrative priviledge**
-_`sudo usermod -aG sudo johndoe` will add johndoe to sudo group_
+_`sudo usermod -aG sudo johndoe` will add johndoe to sudo group._
 
+_id johndoe shows it has not been added to groups_
 ![file](./img/10.png)
-![file](./img/12.%)
+
+I log out and log in as new user using `sudo su` to switch to johndoe user. su 
+![file](https://raw.githubusercontent.com/Sola-Royal/Devops_projects/refs/heads/main/11.ch.jpg)
+
+>#  **creating group**
+_using `sudo groupadd` developers to add `developers` group also using `sudo groupadd` `devops` to create devops group_
+
+_using `sudo usermod -aG` to add user to a groups_
+_using `sudo userdel username` to delete user_
 
 
->**The linux commands manipulation with files**
+> creating a 5 users [`mary`, `mohammed`, `ravi`, `tunji`, `sofia`]. and crete folder in their /home directory.
+____
+>All the five user belongs to devops group
+
+![mary](./img/13.%20mary.png)
+
+![mohammed](./img/12.%20moha.png)
+![ravi](./img/13%20ravi.png)
+![tunji](./img/13.%20tunji.png)
+![sofia](./img/13.%20sofia%20.png)
+
+
+![sofia](./img/13.%20sofia%20.png)
+
+
+>**The advanced linux command done with all necessary fil permission**
