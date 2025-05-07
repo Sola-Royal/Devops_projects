@@ -1,89 +1,46 @@
-# **Advanced Linux Command**
+# **SHELL SCRIPTING**
 
->**this project is about advanced Linux commands, file permissions and access right, ownership and file management**
+>**this project is about shell scripting and its commands.**
 
 ----
-># **Numeric representation of permission**
+>**We have shell language such as**
 
-- No permission = 0
-- Read = 4
-- Write = 2
-- Execute = 1
+- `Bash`
+- `sh`
+- `zsh`
+- `powerShell`
 
->__Permission represented by 7__
-1. 4(Read)+2(write)+1(execute) = 7
-1. Symbolic: `rwx`
-2. meaning: Readc, Write, and execute are all granted
+># **Creating a folder**
+_a folder is created named `Shell-Scripting`_
+![verify](./img/1.%20shell.jpg)
 
+_A file is created inside the shell-scripting named `my_first_shell_script.sh` to perform an executable persmission_
+_i use `VIM` to open the file and use it to write a script to create `three folder` and `three users`, then execute it with `./my_first_shell_script.sh` commands._
+![verify](./img/2.%20my%20first.jpg)
+
+using `ls -latr` to check the persmission list,using `chmod` to add execute and update the permision to `owner` 
+![](./img/la%20latr.jpg)
+`-rw-rw-r--` means the user has read(r) and write(w), group has read(r) and write(w) also, and group only has read(r)
+
+_Using VIM to open the script and save it_
+![verify](./img/vim.jpg)
+_`./my_first_shell_script.sh` for execution_
+![verify](./img/3.%20vim%20add%20folder.jpg)
 
 
 -----
-># **Shorthand representation of permission**
-_the role of hyphe(`-`) in permission representation
+># **Checking the folder**
+_using the `ls` command and `id` to check the users_
+![](./img/4.%20folder.jpg)
+![](./img/5.%20user%20id.jpg)
 
-_Using `ls -latr` to show file permiaaion in linux terminal_
-![verify](./img/4%20ls%20-latr%20%20shorthand.png)
+># **`#!/bin/bash` called Shebang**
+_shebang is a special interpreter to execute the script. in this case `#!/bin/bash` indicate bash shou;d be use to interpret and execute_  
 
+># **The variable declaration and initialisation**
+_variable is essential in every programming language. we use `=` operator to assign value to variable and we access the value using a variable name preceed by `$`_
 
-># **File permission commands**
+_example: asign john to name, `name="John"`, output with `echo $name`_
+![](./img/6.%20echo.jpg)
 
-_use `chmod` commands allows you to modify the file permissiont_ <br>
-_create an empty fil using `touch`_
-![touch](./img/touch.png)
-
-
->#  **update the permission Using `+x` option to add execute permission to the file.**
-__the same permission can be execute using numeric options `chmod 755 script.sh`_
-
-_The `775` will add execute permission to `user`, `group`, `others`, while `chmod 777 note.txt` will add all permission `wxr` to note.txt file_
-![permission](./img/5.%20permission.png)
-
-
->#  **`Chown` Command**
-_I use `Chown` to change ownership of a file from solaroyal1 to peter add it to developer group_
-![chown](./img/6.%20chown%20.png)
-
-
->#  **Superuser priviledges `sudo`, and `exit`commands**
-
-_to change from user to `root user` and `exit` to leave the root user_
-![sudo](./img/7.%20sudo%20.png)
-
-
-># user management on linux
-_creating a user with `adduser` command and `/home/johndoe` directory was created. `cd` is used to navigate johdoe root_ 
-![super user](./img/8.%20new%20user.png)
-![home dir](./img/9.%20sudo%20su.png)
-
-
->#  **Granting administrative priviledge**
-_`sudo usermod -aG sudo johndoe` will add johndoe to sudo group._
-
-_id johndoe shows it has not been added to groups_
-![file](./img/10.png)
-
-I log out and log in as new user using `sudo su` to switch to johndoe user. su 
-![file](https://raw.githubusercontent.com/Sola-Royal/Devops_projects/refs/heads/main/11.ch.jpg)
-
->#  **creating group**
-_using `sudo groupadd` developers to add `developers` group also using `sudo groupadd` `devops` to create devops group_
-
-_using `sudo usermod -aG` to add user to a groups_
-_using `sudo userdel username` to delete user_
-
-
-> creating a 5 users [`mary`, `mohammed`, `ravi`, `tunji`, `sofia`]. and crete folder in their /home directory.
-____
->All the five user belongs to devops group
-
-![mary](./img/13.%20mary.png)
-
-![mohammed](./img/12.%20moha.png)
-![ravi](./img/13%20ravi.png)
-![tunji](./img/13.%20tunji.png)
-![sofia](./img/13.%20sofia%20.png)
-
-
-![sofia](./img/13.%20sofia%20.png)
-
->**The advanced linux command done with all necessary fil permission, making it a workdone**
+**This is one example of the whole shell scripting**
