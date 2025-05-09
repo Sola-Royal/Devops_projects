@@ -19,18 +19,18 @@ _Error scenario could occur if the bucket already exist. to handle this error, w
 
 _if we try to run your s rip-t more than once, you end up creating more EC2 instance than required, and S3 bucket creation will fail because the bucket already exist._
 
-_the update version of create_s3_buckets function with error handling for existence_
+_the update version of create_s3_buckets function with error handling for existence_<br>
 ![bucket](./Img/newww%20buc.jpg)
 _In this updated version, before before attempting to each bucket, we use the aws s3api head-bucket command to check if it is already exist. if it is exist it will display._
 
 >**example below**<br>
-_created script called `identify_potential_error.sh`_
+_created script called `identify_potential_error.sh`_<br>
 ![new](./Img/1.%20created%20id.jpg)
 ![ee](./Img/2.0%20error%20editor.jpg)
 ![we](./Img/2.%20err.jpg)
 _using `./identify_potential_error.sh` to execute the script and output the program it bring error because of the script_
 
-_right script_
+_right script_<br>
 ![er](./Img/2.1%20worked.jpg)
 
 _Conditional statement error_
@@ -38,7 +38,7 @@ _Conditional statement error_
 ![ff](./Img/3.%20output.jpg)
 ----
 
-_right script_
+_right script_<br>
 ![gf](./Img/4.%20original%20code.jpg)
 ![gg](./Img/4.%20output.jpg)
 ![cdc](./Img/5.2%20if%20execute.jpg)
