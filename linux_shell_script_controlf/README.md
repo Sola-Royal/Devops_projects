@@ -11,12 +11,11 @@ _these are_
 - case statements
 
 > **if-else Statement**
-> 
-![](./img/1.%20if-else.jpg)
+![](./Img/1.%20if-else.jpg)
 
 >**Control Flow**<br>
 _script named `control_flow.sh` to write and execute script_
-![](./img/2.%20control%20f.jpg)
+![](./Img/2.%20control%20f.jpg)
 ![](./img/2.0%20control%20vs.jpg)
 _using `bash` to execute the script and output the program_
 ![](./img/3.%20execute.jpg)
