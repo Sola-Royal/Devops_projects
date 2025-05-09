@@ -2,26 +2,26 @@
 
 >**this mini project is about error handling.**
 
-_<p>Error handling in a Bash script means anticipating problems that could occur while the script runs and responding to them gracefully. Instead of letting the script fail unexpectedly, you can check for errors and take appropriate actions, like showing a helpful message, logging the error, or stopping the script.</p>_
+_Error handling in a Bash script means anticipating problems that could occur while the script runs and responding to them gracefully. Instead of letting the script fail unexpectedly, you can check for errors and take appropriate actions, like showing a helpful message, logging the error, or stopping the script._
 
 ----
 > **Implementation of error handling**
 
-_<p>It is essential to consider some factor while when implementing error in shell script. such as_
-- identify potential errors: begin by identify errors in your script, such as user inout and validations, command execution.</p>_
-- _<p>use conditonal statements: utilizing conditional statement (if, elif, else) to check error.</p>_
-- _<p>provide informative messages</p>_
+_It is essential to consider some factor while when implementing error in shell script. such as_
+- identify potential errors: begin by identify errors in your script, such as user inout and validations, command execution._
+- _use conditonal statements: utilizing conditional statement (if, elif, else) to check error._
+- _provide informative messages_
 
 
 >**handling S3 bucket existence Error**
 
-_<p>Error scenario could occur if the bucket already exist. to handle this error, we can modify the script to check if the bucket exist before</p>_
+_Error scenario could occur if the bucket already exist. to handle this error, we can modify the script to check if the bucket exist before._
 
-_<p>if we try to run your s rip-t more than once, you end up creating more EC2 instance than required, and S3 bucket creation will fail because the bucket already exist</p>_
+_if we try to run your s rip-t more than once, you end up creating more EC2 instance than required, and S3 bucket creation will fail because the bucket already exist._
 
 _the update version of create_s3_buckets function with error handling for existence_
 ![bucket](./Img/newww%20buc.jpg)
-_<p>In this updated version, before before attempting to each bucket, we use the aws s3api head-bucket command to check if it is already exist. if it is exist it will display.</p>_
+_In this updated version, before before attempting to each bucket, we use the aws s3api head-bucket command to check if it is already exist. if it is exist it will display._
 
 >**example below**<br>
 _created script called `identify_potential_error.sh`_
