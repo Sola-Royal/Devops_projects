@@ -17,7 +17,7 @@ _<p>Error scenario could occur if the bucket already exist. to handle this error
 _<p>if we try to run your s rip-t more than once, you end up creating more EC2 instance than required, and S3 bucket creation will fail because the bucket already exist</p>_
 
 _the update version of create_s3_buckets function with error handling for existence_
-![](./Img/newww%20buc.jpg)
+![](./img/newww%20buc.jpg)
 _<p>In this updated version, before before attempting to each bucket, we use the aws s3api head-bucket command to check if it is already exist. if it is exist it will display.</p>_
 
 >**example below**<br>
