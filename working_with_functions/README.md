@@ -1,6 +1,6 @@
 # **Working with functions**
 
->**The goal is develop a shell script for one of DatWise Solutions's clients that automate the setup of Ec2 instance s3 bucket. the critical part is functions**
+>**The goal is develop a shell script for one of DataWise Solutions's clients that automate the setup of Ec2 instance s3 bucket. the critical part is functions**
 
 _Functions: organizing your code is key to maintainig clarity and efficiency. one of the way to cheive is function_
 
