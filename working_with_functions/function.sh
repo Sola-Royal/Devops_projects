@@ -1,0 +1,12 @@
+[default]
+aws_access_key_id = YOUR_ACCESS_KEY_ID
+aws_secret_access_key = YOUR_SECRET_ACCESS_KEY
+
+[profile testing]
+aws_access_key_id = YOUR_TESTING_ENVIRONMENT_ACCESS_KEY_ID
+aws_secret_access_key = YOUR_TESTING_ENVIRONMENT_SECRET_ACCESS_KEY
+
+[profile production]
+aws_access_key_id = YOUR_PRODUCTION_ENVIRONMENT_ACCESS_KEY_ID
+aws_secret_access_key = YOUR_PRODUCTION_ENVIRONMENT_SECRET_ACCESS_KEY
+
