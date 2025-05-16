@@ -81,6 +81,8 @@ _Review and merge the PR_
 
 ## **_Deploying updates to the producton server_**<br>
 _Pull the request `git pull origin main`. ssh into the AWS EC2 instance where production website is hosted._
+![](./Img/new%20changes%20in%20web.jpg)
+
 
 ## **_Chanllenges facing_**<br>
 ![](./Img/14%20chanllenges.jpg)
