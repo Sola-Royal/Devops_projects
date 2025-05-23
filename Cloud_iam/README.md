@@ -8,7 +8,7 @@ _<p>1. Protects Sensitive Customer Data:Zappy e-Bank deals with highly sensitive
 _<p>2. Enables Secure Access Control: IAM makes it easy to define who can access what within the system. IAM is like the digital gatekeeper of Zappy e-Bank — ensuring the right people have the right access to the right resources at the right time. It plays a key role in protecting customer trust, ensuring legal compliance, and keeping the bank’s systems secure and efficient.</p>_
 
 
-_1. The Role of IAM in AWS Identity and Access Management (IAM) in AWS is like the security guard for your cloud resources. It makes sure that only the right people can access certain data or services. Imagine a building where you need a special pass to enter different rooms—IAM is the system that gives out those passes and checks them at the door. This helps keep everything organized and secure so that only authorized people can do certain things in your AWS environment._
+_The Role of IAM in AWS Identity and Access Management (IAM) in AWS is like the security guard for your cloud resources. It makes sure that only the right people can access certain data or services. Imagine a building where you need a special pass to enter different rooms—IAM is the system that gives out those passes and checks them at the door. This helps keep everything organized and secure so that only authorized people can do certain things in your AWS environment._
 
 > # **Project Reflection and settup**
 
