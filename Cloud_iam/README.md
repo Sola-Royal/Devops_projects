@@ -1,6 +1,6 @@
 # **Security and identity access management**
 
->**This mini project is about AWS IAM. I will bw working on Zappy e-bank project using AWS IAM in managing cloud resources securelt and efficiently.**
+>**This mini project is about AWS IAM. I will bw working on Zappy e-bank project using AWS IAM in managing cloud resources security and efficiently.**
 
 > ## **Importance of IAM in Zappy e-Bank**
 _<p>1. Protects Sensitive Customer Data:Zappy e-Bank deals with highly sensitive information like customer identities, bank accounts, transactions, and financial history. IAM helps ensure that only authorized staff can access this data, preventing data breaches and identity theft.</p>_
