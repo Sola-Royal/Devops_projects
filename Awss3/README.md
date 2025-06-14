@@ -32,7 +32,7 @@ _let create ba file on my laptop with some data. , we'll write `Welcome to the A
 
 
 __Click `Upload button`__
-_click on the `Add file` and select the file you want to upload._
+_click on the `Add file` and add the file you want to upload._
 ![.](./Img/2.2...jpg)
 __`Click open`__
 ![.](./Img/2.3.jpg)
@@ -40,7 +40,7 @@ __`Click open`__
 __Finally `Upload` to complete the process__
 ![.](./Img/2.4...jpg)
 
-__Congratultions!, ity has been successfully uploaded object(file) to the S3 bucket(folder).__
+__Congratultions!, it has been successfully uploaded object(file) to the S3 bucket(folder).__
 ![.](./Img/2.5.jpg)
 
 
@@ -54,14 +54,14 @@ __Click Edit__
 __Select `Enabled` then saved__
 ![.](./Img/3.2...jpg)
 
-__Modify the content and re-upload it again, i will create a new version of the file.
+__Modify the content and re-upload it again, i will create a new version of the file.__
 ![.](./Img/3.3%20version%20cont.jpg)
 
 __Another uploading__
 ![.](./Img/3.4.jpg)
 
 
-##  __To view thw content of all the versions, let's proceed to our next step, which involves setting permissions__
+##  __To view the content of all the versions, let's proceed to our next step, which involves setting permissions__
 
 __Navigate to `permission` section and see if `Block all Public access` is enabled.__
 
@@ -116,7 +116,7 @@ _Navigate to the management section of the bucket_
 __Click on `Create lifecycle rule`__
 ![.](./Img/7.jpg)
 
-__Give tjhe specifications, and click to create rule__
+__Give the specifications, and click to create rule__
 ![.](./Img/7.1.jpg)
 ![.](./Img/7.3.jpg)
 
