@@ -23,12 +23,26 @@ _Select `ACL Disabled` for object ownership_
 _The bucket has been successfully created_
 ![.](./Img/1.5%20s3%20bucket%20created.jpg)
 
+__The structure__
+ ![.](./Img/111.jpg)
 
+ __`ACL activated__
+ ![.](./Img/acl11.jpg)
+  ![.](./Img/acl222.jpg)
+
+   __`block public access` acivated__
+ ![.](./Img/activ.jpg)
+  ![.](./Img/activ2.jpg)
+
+__(a) `Edit` to make change__
+![.](./Img/4..jpg)
+_Now `uncheck` the `Block all access` option., then click oin `save changes`_
+![.](./Img/4.1.jpg)
 
 >**object Uploading**<br>
 _let create ba file on my laptop with some data. , we'll write `Welcome to the AWS world` and save it._
 ![.](./Img/2.1.jpg)
-![.](./Img/2%20note.jpg)
+![.](./Img/ft1.jpg)
 
 
 __Click `Upload button`__
@@ -45,6 +59,12 @@ __Congratultions!, it has been successfully uploaded object(file) to the S3 buck
 
 
 > # **Enabling Version**<br>
+_AWS versioning is a feature primarily associated with Amazon S3 (Simple Storage Service), and it refers to the ability to keep multiple variants of an object in the same bucket_
+
+_Versioning allows you to preserve, retrieve, and restore every version of every object stored in an S3 bucket.
+When versioning is enabled on a bucket, any time you upload (PUT) a new object with the same key (name) as an existing object, S3 automatically creates a new version of that object.
+Each version of an object is assigned a unique version ID._
+
 > _On the Bucket `properties` section on the righ side, you will notice that bucket versioning is currently disabled. then enable it._
 ![.](./Img/3..%20bucket%20version.jpg)
 
@@ -55,6 +75,7 @@ __Select `Enabled` then saved__
 ![.](./Img/3.2...jpg)
 
 __Modify the content and re-upload it again, i will create a new version of the file.__
+![.](./Img/ft2.jpg)
 ![.](./Img/3.3%20version%20cont.jpg)
 
 __Another uploading__
@@ -79,9 +100,11 @@ __Bucket policy__
 _click on the policy generator which also define what others can do omn your file_
 ![.](./Img/5.1.jpg)
 
-__Select the type of policy as `S3 Bucket policy`_
+__Select the type of policy as `S3 Bucket policy`__
 ![.](./Img/5.2.jpg)
 
+__arn__
+![.](./Img/Arn.jpg)
 __Generate policy__
 _Click `add statement` after inputing the actual `ARN`_
 ![.](./Img/5.3.jpg)
@@ -92,7 +115,8 @@ _Now, copy the `JSON` file and close it_
 _Paste the policy generated to the policy and `Save`_
 ![.](./Img/5.5.jpg)
 
-
+__set public access permission private__
+![.](./Img/acces%20b.jpg)
 _Now, click on the version of the file_
 ![.](./Img/6.jpg)
 
@@ -111,7 +135,7 @@ __You will get the latest data__
 
 
 ##  __Creating lifecycle policies__
-_Navigate to the management section of the bucket_
+_Navigate to the management section of the bucket, also `The Aws version  has been updated`_
 
 __Click on `Create lifecycle rule`__
 ![.](./Img/7.jpg)
